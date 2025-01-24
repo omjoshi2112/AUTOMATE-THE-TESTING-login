@@ -12,7 +12,7 @@ BATCH DURATION: January 5th,2025 to February 20TH,2025.
 
 MENTOR NAME: NEELA SANTHOSH
 
-DESCRIPTION : AUTOMATE THE TESTING OF A SAMPLE WEB APPLICATION’S LOGIN AND NAVIGATION FUNCTIONALITY USING SELENIUM WEBDRIVER.
+DESCRIPTION : TEST RESTFUL APIS USING POSTMAN FOR FUNCTIONALITIES LIKE AUTHENTICATION AND DATA RETRIEVAL.
 
 Install Postman:
 Download and install from Postman’s website.
@@ -54,10 +54,9 @@ pm.test("Response contains data", () => {
 
 -------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------
-DESCRIPTION: DELIVERABLE A SCRIPT REPOSITORY AND A TEST EXECUTION REPORT.
-Deliverables
-Postman Collection
+DESCRIPTION: DELIVERABLE A POSTMAN COLLECTION AND DOCUMENTATION OF TEST RESULTS.
 
+Postman Collection
 Create and organize API requests for authentication and data retrieval.
 Save headers, parameters, and request bodies in Postman.
 Export the collection:
