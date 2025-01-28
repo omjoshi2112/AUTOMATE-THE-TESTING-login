@@ -49,7 +49,7 @@ pm.test("Status code is 200", () => {
 
 pm.test("Response contains data", () => {
     const jsonData = pm.response.json();
-    pm.expect(jsonData).to.have.property("id");
+    pm.expect (jsonData).to.have.property("id");
 });
 
 -------------------------------------------------------------------------------------------
