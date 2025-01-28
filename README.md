@@ -43,9 +43,11 @@ Save requests into a Postman Collection for reusability.
 Optional: Write Tests:
 Add scripts in the Tests tab to automate validation:
 
-pm.test("Status code is 200", () => {
+pm.test("Status code is 200", () =>
+{
     pm.response.to.have.status(200);
-});
+}
+);
 
 pm.test("Response contains data", () => {
     const jsonData = pm.response.json();
